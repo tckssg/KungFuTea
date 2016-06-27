@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA73C2A21D20B35B00BF2BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C2A11D20B35B00BF2BAE /* main.m */; };
+		BA73C2A51D20B35B00BF2BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C2A41D20B35B00BF2BAE /* AppDelegate.m */; };
+		BA73C2A81D20B35B00BF2BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C2A71D20B35B00BF2BAE /* ViewController.m */; };
+		BA73C2AB1D20B35B00BF2BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA73C2A91D20B35B00BF2BAE /* Main.storyboard */; };
+		BA73C2AD1D20B35B00BF2BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA73C2AC1D20B35B00BF2BAE /* Assets.xcassets */; };
+		BA73C2B01D20B35B00BF2BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA73C2AE1D20B35B00BF2BAE /* LaunchScreen.storyboard */; };
+		BA73C2BB1D20B35B00BF2BAE /* KungFuTeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C2BA1D20B35B00BF2BAE /* KungFuTeaTests.m */; };
+		BA73C2C61D20B35B00BF2BAE /* KungFuTeaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA73C2C51D20B35B00BF2BAE /* KungFuTeaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA73C2B71D20B35B00BF2BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA73C2951D20B35B00BF2BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA73C29C1D20B35B00BF2BAE;
+			remoteInfo = KungFuTea;
+		};
+		BA73C2C21D20B35B00BF2BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA73C2951D20B35B00BF2BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA73C29C1D20B35B00BF2BAE;
+			remoteInfo = KungFuTea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA73C29D1D20B35B00BF2BAE /* KungFuTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KungFuTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA73C2A11D20B35B00BF2BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA73C2A31D20B35B00BF2BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA73C2A41D20B35B00BF2BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA73C2A61D20B35B00BF2BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA73C2A71D20B35B00BF2BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA73C2AA1D20B35B00BF2BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA73C2AC1D20B35B00BF2BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA73C2AF1D20B35B00BF2BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA73C2B11D20B35B00BF2BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA73C2B61D20B35B00BF2BAE /* KungFuTeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KungFuTeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA73C2BA1D20B35B00BF2BAE /* KungFuTeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KungFuTeaTests.m; sourceTree = "<group>"; };
+		BA73C2BC1D20B35B00BF2BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA73C2C11D20B35B00BF2BAE /* KungFuTeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KungFuTeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA73C2C51D20B35B00BF2BAE /* KungFuTeaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KungFuTeaUITests.m; sourceTree = "<group>"; };
+		BA73C2C71D20B35B00BF2BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA73C29A1D20B35B00BF2BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA73C2B31D20B35B00BF2BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA73C2BE1D20B35B00BF2BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA73C2941D20B35B00BF2BAE = {
+			isa = PBXGroup;
+			children = (
+				BA73C29F1D20B35B00BF2BAE /* KungFuTea */,
+				BA73C2B91D20B35B00BF2BAE /* KungFuTeaTests */,
+				BA73C2C41D20B35B00BF2BAE /* KungFuTeaUITests */,
+				BA73C29E1D20B35B00BF2BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA73C29E1D20B35B00BF2BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA73C29D1D20B35B00BF2BAE /* KungFuTea.app */,
+				BA73C2B61D20B35B00BF2BAE /* KungFuTeaTests.xctest */,
+				BA73C2C11D20B35B00BF2BAE /* KungFuTeaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA73C29F1D20B35B00BF2BAE /* KungFuTea */ = {
+			isa = PBXGroup;
+			children = (
+				BA73C2A31D20B35B00BF2BAE /* AppDelegate.h */,
+				BA73C2A41D20B35B00BF2BAE /* AppDelegate.m */,
+				BA73C2A61D20B35B00BF2BAE /* ViewController.h */,
+				BA73C2A71D20B35B00BF2BAE /* ViewController.m */,
+				BA73C2A91D20B35B00BF2BAE /* Main.storyboard */,
+				BA73C2AC1D20B35B00BF2BAE /* Assets.xcassets */,
+				BA73C2AE1D20B35B00BF2BAE /* LaunchScreen.storyboard */,
+				BA73C2B11D20B35B00BF2BAE /* Info.plist */,
+				BA73C2A01D20B35B00BF2BAE /* Supporting Files */,
+			);
+			path = KungFuTea;
+			sourceTree = "<group>";
+		};
+		BA73C2A01D20B35B00BF2BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA73C2A11D20B35B00BF2BAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA73C2B91D20B35B00BF2BAE /* KungFuTeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA73C2BA1D20B35B00BF2BAE /* KungFuTeaTests.m */,
+				BA73C2BC1D20B35B00BF2BAE /* Info.plist */,
+			);
+			path = KungFuTeaTests;
+			sourceTree = "<group>";
+		};
+		BA73C2C41D20B35B00BF2BAE /* KungFuTeaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA73C2C51D20B35B00BF2BAE /* KungFuTeaUITests.m */,
+				BA73C2C71D20B35B00BF2BAE /* Info.plist */,
+			);
+			path = KungFuTeaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA73C29C1D20B35B00BF2BAE /* KungFuTea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA73C2CA1D20B35B00BF2BAE /* Build configuration list for PBXNativeTarget "KungFuTea" */;
+			buildPhases = (
+				BA73C2991D20B35B00BF2BAE /* Sources */,
+				BA73C29A1D20B35B00BF2BAE /* Frameworks */,
+				BA73C29B1D20B35B00BF2BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KungFuTea;
+			productName = KungFuTea;
+			productReference = BA73C29D1D20B35B00BF2BAE /* KungFuTea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA73C2B51D20B35B00BF2BAE /* KungFuTeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA73C2CD1D20B35B00BF2BAE /* Build configuration list for PBXNativeTarget "KungFuTeaTests" */;
+			buildPhases = (
+				BA73C2B21D20B35B00BF2BAE /* Sources */,
+				BA73C2B31D20B35B00BF2BAE /* Frameworks */,
+				BA73C2B41D20B35B00BF2BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA73C2B81D20B35B00BF2BAE /* PBXTargetDependency */,
+			);
+			name = KungFuTeaTests;
+			productName = KungFuTeaTests;
+			productReference = BA73C2B61D20B35B00BF2BAE /* KungFuTeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA73C2C01D20B35B00BF2BAE /* KungFuTeaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA73C2D01D20B35B00BF2BAE /* Build configuration list for PBXNativeTarget "KungFuTeaUITests" */;
+			buildPhases = (
+				BA73C2BD1D20B35B00BF2BAE /* Sources */,
+				BA73C2BE1D20B35B00BF2BAE /* Frameworks */,
+				BA73C2BF1D20B35B00BF2BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA73C2C31D20B35B00BF2BAE /* PBXTargetDependency */,
+			);
+			name = KungFuTeaUITests;
+			productName = KungFuTeaUITests;
+			productReference = BA73C2C11D20B35B00BF2BAE /* KungFuTeaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA73C2951D20B35B00BF2BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tckssg;
+				TargetAttributes = {
+					BA73C29C1D20B35B00BF2BAE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BA73C2B51D20B35B00BF2BAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA73C29C1D20B35B00BF2BAE;
+					};
+					BA73C2C01D20B35B00BF2BAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA73C29C1D20B35B00BF2BAE;
+					};
+				};
+			};
+			buildConfigurationList = BA73C2981D20B35B00BF2BAE /* Build configuration list for PBXProject "KungFuTea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA73C2941D20B35B00BF2BAE;
+			productRefGroup = BA73C29E1D20B35B00BF2BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA73C29C1D20B35B00BF2BAE /* KungFuTea */,
+				BA73C2B51D20B35B00BF2BAE /* KungFuTeaTests */,
+				BA73C2C01D20B35B00BF2BAE /* KungFuTeaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA73C29B1D20B35B00BF2BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA73C2B01D20B35B00BF2BAE /* LaunchScreen.storyboard in Resources */,
+				BA73C2AD1D20B35B00BF2BAE /* Assets.xcassets in Resources */,
+				BA73C2AB1D20B35B00BF2BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA73C2B41D20B35B00BF2BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA73C2BF1D20B35B00BF2BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA73C2991D20B35B00BF2BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA73C2A81D20B35B00BF2BAE /* ViewController.m in Sources */,
+				BA73C2A51D20B35B00BF2BAE /* AppDelegate.m in Sources */,
+				BA73C2A21D20B35B00BF2BAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA73C2B21D20B35B00BF2BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA73C2BB1D20B35B00BF2BAE /* KungFuTeaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA73C2BD1D20B35B00BF2BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA73C2C61D20B35B00BF2BAE /* KungFuTeaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA73C2B81D20B35B00BF2BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA73C29C1D20B35B00BF2BAE /* KungFuTea */;
+			targetProxy = BA73C2B71D20B35B00BF2BAE /* PBXContainerItemProxy */;
+		};
+		BA73C2C31D20B35B00BF2BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA73C29C1D20B35B00BF2BAE /* KungFuTea */;
+			targetProxy = BA73C2C21D20B35B00BF2BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA73C2A91D20B35B00BF2BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA73C2AA1D20B35B00BF2BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA73C2AE1D20B35B00BF2BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA73C2AF1D20B35B00BF2BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA73C2C81D20B35B00BF2BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA73C2C91D20B35B00BF2BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA73C2CB1D20B35B00BF2BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KungFuTea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfteausa.KungFuTea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA73C2CC1D20B35B00BF2BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KungFuTea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfteausa.KungFuTea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA73C2CE1D20B35B00BF2BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KungFuTeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfteausa.KungFuTeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KungFuTea.app/KungFuTea";
+			};
+			name = Debug;
+		};
+		BA73C2CF1D20B35B00BF2BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KungFuTeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfteausa.KungFuTeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KungFuTea.app/KungFuTea";
+			};
+			name = Release;
+		};
+		BA73C2D11D20B35B00BF2BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KungFuTeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfteausa.KungFuTeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KungFuTea;
+			};
+			name = Debug;
+		};
+		BA73C2D21D20B35B00BF2BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KungFuTeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfteausa.KungFuTeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KungFuTea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA73C2981D20B35B00BF2BAE /* Build configuration list for PBXProject "KungFuTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA73C2C81D20B35B00BF2BAE /* Debug */,
+				BA73C2C91D20B35B00BF2BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA73C2CA1D20B35B00BF2BAE /* Build configuration list for PBXNativeTarget "KungFuTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA73C2CB1D20B35B00BF2BAE /* Debug */,
+				BA73C2CC1D20B35B00BF2BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA73C2CD1D20B35B00BF2BAE /* Build configuration list for PBXNativeTarget "KungFuTeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA73C2CE1D20B35B00BF2BAE /* Debug */,
+				BA73C2CF1D20B35B00BF2BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA73C2D01D20B35B00BF2BAE /* Build configuration list for PBXNativeTarget "KungFuTeaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA73C2D11D20B35B00BF2BAE /* Debug */,
+				BA73C2D21D20B35B00BF2BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA73C2951D20B35B00BF2BAE /* Project object */;
+}
